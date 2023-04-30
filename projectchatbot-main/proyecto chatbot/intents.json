@@ -1,0 +1,133 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "Hola",
+        "¿Qué tal?",
+        "¿Cómo estás?",
+        "¿Qué pasa?",
+        "¿Qué hay?",
+        "¿Cómo va?",
+        "¿Qué onda?"
+      ],
+      "responses": [
+        "Hola, ¿cómo estás?",
+        "Hola, ¿qué tal?",
+        "Hola, ¿qué hay?",
+        "Hola, ¿en que puedo ayudarte?",
+        "Hola, ¿cómo va?",
+        "Hola, estoy para ayudarte"
+      ]
+    },
+
+    {
+      "tag": "ayuda",
+      "patterns": [
+        "¿Qué puedo hacer?, ¿Qué puedo hacer?, ¿Qué puedo hacer?, ¿Qué puedo hacer?"
+      ],
+      "responses": [
+        "Puedes preguntarme por mi nombre, mi edad, mi identificación o mis ingresos"
+      ]
+    },
+
+    {
+      "tag": "nombre",
+      "patterns": [
+        "¿Cuál es tu nombre?, ¿Cómo te llamas?, ¿Cómo te dicen?, ¿Cómo te dicen?"
+      ],
+      "responses": ["Mi nombre es Chaos", "Me llamo Chaos", "Me dicen Chaos"]
+    },
+
+    {
+      "tag": "despedidas",
+      "patterns": [
+        "Adiós",
+        "Hasta luego",
+        "Hasta pronto",
+        "Hasta mañana",
+        "Nos vemos",
+        "Chao",
+        "Bye",
+        "Hasta la próxima"
+      ],
+      "responses": [
+        "Adiós, fue un placer ayudarte",
+        "Hasta luego",
+        "Hasta pronto",
+        "Hasta mañana",
+        "Nos vemos",
+        "Chao",
+        "Bye",
+        "Hasta la próxima"
+      ]
+    },
+
+    {
+      "tag": "agradecimientos",
+      "patterns": [
+        "Gracias",
+        "Muchas gracias",
+        "Gracias por tu ayuda",
+        "Gracias por todo",
+        "Te agradezco",
+        "Te agradezco mucho"
+      ],
+      "responses": [
+        "No hay de qué",
+        "No hay problema",
+        "No te preocupes",
+        "De nada",
+        "Es un placer ayudarte"
+      ]
+    },
+
+    {
+      "tag": "edad",
+      "patterns": [
+        "¿Cuantos años tiene?, ¿Cuántos años tienes?, ¿Qué edad tienes?, ¿Qué edad tiene?"
+      ],
+      "responses": [
+        "Tengo 20 año de edad",
+        "Tengo 20 años",
+        "Tengo 20 años de edad"
+      ]
+    },
+
+    {
+      "tag": "nombre",
+      "patterns": [
+        "¿Cuál es tu nombre?, ¿Cómo te llamas?, ¿Cómo te dicen?, ¿Cómo te dicen?"
+      ],
+      "responses": [
+        "Mi nombre es Chatbot",
+        "Me llamo Chatbot",
+        "Me dicen Chatbot"
+      ]
+    },
+
+    {
+      "tag": "id",
+      "patterns": [
+        "¿Cuál es tu identificación?, ¿Cuál es tu identificación?, ¿Cuál es tu identificación?, ¿Cuál es tu identificación?"
+      ],
+      "responses": [
+        "Mi identificación es 123456789",
+        "Mi identificación es 123456789",
+        "Mi identificación es 123456789"
+      ]
+    },
+
+    {
+      "tag": "ingresos",
+      "patterns": [
+        "¿Cuánto ganas?, ¿Cuánto ganas?, ¿Cuánto ganas?, ¿Cuánto ganas?"
+      ],
+      "responses": [
+        "Gano 1000 dolares",
+        "Gano 1000 dolares",
+        "Gano 1000 dolares"
+      ]
+    }
+  ]
+}
